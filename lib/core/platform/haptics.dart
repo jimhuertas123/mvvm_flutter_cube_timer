@@ -9,6 +9,7 @@ class HapticsService {
   HapticsService._internal();
 
   bool? _hasVibrator;
+  
 
   /// Initialize and check vibration capability
   Future<void> init() async {
